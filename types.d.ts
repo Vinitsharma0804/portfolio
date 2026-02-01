@@ -9,3 +9,8 @@ declare module '@/mdx/search.mjs' {
 
   export function search(query: string, options?: SearchOptions): Array<Result>
 }
+
+declare module '*.png' {
+  const values: string
+  export default value
+}
