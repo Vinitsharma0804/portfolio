@@ -1,10 +1,10 @@
 'use client'
 
 import Link from 'next/link'
-import firstImage from '@/images/profile/profile1.png'
-import secondImage from '@/images/profile/profile2.png'
-import thirdImage from '@/images/profile/profile3.png'
-import fourthImage from '@/images/profile/profile4.png'
+import firstImage from '@/images/profile/profile1.PNG'
+import secondImage from '@/images/profile/profile2.PNG'
+import thirdImage from '@/images/profile/profile3.PNG'
+import fourthImage from '@/images/profile/profile4.PNG'
 import Image from 'next/image'
 
 export function AboutHero() {
