@@ -1,11 +1,6 @@
 'use client'
 
 import Link from 'next/link'
-import firstImage from '@/images/profile/profile1.PNG'
-import secondImage from '@/images/profile/profile2.PNG'
-import thirdImage from '@/images/profile/profile3.PNG'
-import fourthImage from '@/images/profile/profile4.PNG'
-import Image from 'next/image'
 
 export function AboutHero() {
   return (
@@ -62,17 +57,17 @@ export function AboutHero() {
                   </div> */}
                   <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
                     <div className="relative">
-                      <Image
+                      <img
                         alt="First Image"
-                        src={firstImage}
+                        src={'profile/profile1.png'}
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
                     <div className="relative">
-                      <Image
+                      <img
                         alt=""
-                        src={secondImage}
+                        src={'profile/profile2.png'}
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -80,17 +75,17 @@ export function AboutHero() {
                   </div>
                   <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
                     <div className="relative">
-                      <Image
+                      <img
                         alt=""
-                        src={thirdImage}
+                        src={'profile/profile3.png'}
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
                     <div className="relative">
-                      <Image
+                      <img
                         alt=""
-                        src={fourthImage}
+                        src={profile/profile4.png}
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
