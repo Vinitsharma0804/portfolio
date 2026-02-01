@@ -1,0 +1,21 @@
+import { StockMarketPrediction } from '@/components/projects/StockMarketPrediction'
+import { PrisonBuildingContract } from '@/components/projects/PrisonBuildingContract'
+import { FireExtinguishingBot } from '@/components/projects/FireExtinguishingBot'
+import { EmployeePerformance } from '@/components/projects/EmployeePerformance'
+
+export const metadata = {
+  title: 'Projects',
+  description:
+    'Turning ideas into working solutions through code and data.',
+}
+
+export const sections = [
+  { title: 'Stock Market Prediction', id: 'stock-market-prediction' },
+  { title: 'Prison Building Contract', id: 'prison-building-contract' },
+  { title: 'Fire-Extinguishing Autonomous Bot', id: 'fire-extinguishing-autonomous-bot' },
+]
+
+<StockMarketPrediction />
+<PrisonBuildingContract />
+<EmployeePerformance />
+<FireExtinguishingBot />

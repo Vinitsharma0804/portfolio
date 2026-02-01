@@ -1,0 +1,27 @@
+import { AboutHero } from '@/components/about/AboutHero'
+import { AboutSection } from '@/components/about/AboutSection'
+import { ContributeSection } from '@/components/about/ContributeSection'
+import { ValueSection } from '@/components/about/Value'
+
+export const metadata = {
+  title: 'About Me',
+  description:
+    'A software engineer driven by curiosity, ownership, and continuous learning.',
+}
+
+export const sections = [
+  { title: 'Profile', id: 'profile' },
+  { title: 'About', id: 'about' },
+  { title: 'How I Add Value', id: 'how-i-add-value' },
+  { title: 'Where I Can Contribute', id: 'where-i-can-contribute' },
+]
+
+## Profile
+<AboutHero />
+## About
+<AboutSection />
+## How I Add Value
+<ValueSection />
+## Where I Can contribute
+<ContributeSection />
+
