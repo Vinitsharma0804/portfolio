@@ -17,7 +17,7 @@ const featuredTestimonial = {
           body: 'I had the pleasure of working with Vinit and consistently found him to be a skilled, reliable, and motivated professional. He has a strong technical skillset, with hands-on experience in Java, Spring Boot, databases, and Angular, and has worked effectively on building and maintaining robust applications. Vinit learns new concepts quickly and applies them efficiently, even when working with new technologies or complex requirements. He is a great team player-collaborative, respectful, and always willing to support others. His positive attitude and problem-solving mindset make him a valuable addition to any team. I confidently recommend Vinit for any technical position and believe he will be an asset wherever he works.',
           author: {
             name: 'Narendra Chaudhari',
-            handle: 'Technical Lead at In-solutions Global',
+            handle: 'Technical Lead(ProC) at In-solutions Global',
             imageUrl:
               'https://media.licdn.com/dms/image/v2/C4E03AQFvf4UtOcLxsQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1571765335154?e=1771459200&v=beta&t=dgrVOuOM5oTpc3QnMoURzwCuDUQZZjm6KpHT6qdQo5s',
             linkedIn: "https://www.linkedin.com/in/narendra-chaudhari-5b353611b/"
@@ -38,7 +38,7 @@ const featuredTestimonial = {
             body: `Vinit Sharma and I worked together in the same company, and he has always been one of the most dependable developers in the team. As a Full Stack / Java Developer, he has a strong grip on backend development, API integrations, and database handling, while also contributing effectively to the front end. He takes complete ownership of his work, ensures quality delivery, and is always willing to help teammates whenever needed. His attitude, consistency, and technical skills make him stand out. I highly recommend Vinit for any organization looking for a skilled and responsible developer.`,
             author: {
               name: 'Akshay Shetty',
-              handle: 'Collegue at In-Solutions Global',
+              handle: 'Technical Lead(Database) at In-Solutions Global',
               imageUrl:
                 'https://media.licdn.com/dms/image/v2/C4E03AQHaqtx4F3C2ZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1649953264947?e=1771459200&v=beta&t=IMw14lIOWZbHjLtN-Z2o93x6fHmH-Hd_cvwEQSGg2FQ',
               linkedIn: 'https://www.linkedin.com/in/akshay-shetty-01389b237/',
