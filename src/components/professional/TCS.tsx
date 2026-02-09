@@ -14,45 +14,57 @@ export function TCS() {
             Mumbai, India
             </p>
             <p className="text-lg m-0 p-0 leading-8">
-            June 2021 - Sept 2022
+            April 2022 - Sept 2022
             </p>
         </div>
         <div className="mt-10">
           <ul role="list" className="mt-8 space-y-8">
-            <li className="flex gap-x-3 w-full">
+          <li className="flex gap-x-3 w-full">
               <CheckCircleIcon aria-hidden="true" className="mt-1 h-5 w-5 flex-none text-emerald-600" />
               <span>
-              Designed, developed, and maintained dynamic web applications using Java, SQL for backend development, HTML for frontend, and the Struts framework. Demonstrated adaptability by progressively learning and applying new skills along with OOP concepts in real-time.
+              Led end-to-end development, enhancement, and support of enterprise web applications using Java, SQL, HTML, and the Struts framework, ensuring scalable, maintainable, and business-aligned solutions.
               </span>
             </li>
             <li className="flex gap-x-3 w-full">
               <CheckCircleIcon aria-hidden="true" className="mt-1 h-5 w-5 flex-none text-emerald-600" />
               <span>
-              Collaborated with clients to gather requirements and deliver tailored solutions aligned with business goals.
+              Played a central role in client-facing engagements, independently gathering and analyzing requirements, proposing technical solutions, and delivering customized implementations aligned with business objectives.
               </span>
             </li>
             <li className="flex gap-x-3 w-full">
               <CheckCircleIcon aria-hidden="true" className="mt-1 h-5 w-5 flex-none text-emerald-600" />
               <span>
-              Conducted comprehensive business analysis to translate user requirements into actionable development plans, increased project efficiency by 10% by applying the Waterfall (hybrid) model for structured, sequential development and thorough documentation at each stage.
+              Owned the design and execution of complex Change Requests (CRs), including backend logic enhancements, database query optimization, and performance improvements.
               </span>
             </li>
             <li className="flex gap-x-3 w-full">
               <CheckCircleIcon aria-hidden="true" className="mt-1 h-5 w-5 flex-none text-emerald-600" />
               <span>
-              Ensured timely delivery via Scrum meetings, using Bugzilla for task tracking and Git for deployments.
+              Actively participated in Agile/Scrum ceremonies, sprint planning, daily stand-ups, and retrospectives, ensuring accurate estimations, risk mitigation, and on-time delivery.
               </span>
             </li>
             <li className="flex gap-x-3 w-full">
               <CheckCircleIcon aria-hidden="true" className="mt-1 h-5 w-5 flex-none text-emerald-600" />
               <span>
-              Provided high-level support to clients via an e-ticketing system, ensuring efficient resolution of technical issues. Successfully resolved 95% of problems within 5-10 minutes, significantly boosting client satisfaction.
+              Coordinated across QA, Build/DevOps, and Project Management teams to manage deployments, resolve defects, and ensure smooth release cycles.
               </span>
             </li>
             <li className="flex gap-x-3 w-full">
               <CheckCircleIcon aria-hidden="true" className="mt-1 h-5 w-5 flex-none text-emerald-600" />
               <span>
-              Demonstrated expertise in debugging and problem-solving, improving application performance, stability and achieving a 20% reduction in technical issues and ensuring smoother user experiences.
+              Mentored junior engineers through technical guidance, code reviews, and debugging support, improving overall code quality and team efficiency.
+              </span>
+            </li>
+            <li className="flex gap-x-3 w-full">
+              <CheckCircleIcon aria-hidden="true" className="mt-1 h-5 w-5 flex-none text-emerald-600" />
+              <span>
+              Created and maintained technical and functional documentation such as design specifications, release notes, and knowledge base articles to support long-term maintainability and onboarding.
+              </span>
+            </li>
+            <li className="flex gap-x-3 w-full">
+              <CheckCircleIcon aria-hidden="true" className="mt-1 h-5 w-5 flex-none text-emerald-600" />
+              <span>
+              Consistently met tight deadlines while maintaining application stability, performance, and high client satisfaction.
               </span>
             </li>
           </ul>

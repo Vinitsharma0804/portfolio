@@ -44,18 +44,6 @@ const featuredTestimonial = {
               linkedIn: 'https://www.linkedin.com/in/akshay-shetty-01389b237/',
             },
           },
-        {
-            body: 'I had the pleasure of working with Vinit Sharma at TCS on enterprise-level Java backend services for NSDL. He consistently demonstrated a strong technical foundation, a sharp grasp of complex systems, and a clear understanding of end-to-end backend development. Within a year, Vinit showed impressive growth-progressing from a junior developer to confidently guiding and supporting new team members. He takes ownership of his work, collaborates well with others, and brings both technical maturity and leadership potential to the team.',
-            author: {
-              name: 'Deshna Shah',
-              handle: 'Collegue at Tata Consultancy Services',
-              imageUrl:
-                'https://media.licdn.com/dms/image/v2/D4E03AQHxpn949alorg/profile-displayphoto-shrink_400_400/B4EZOYsp4JHwAk-/0/1733433664638?e=1771459200&v=beta&t=3YXFAhK9FuKv8gCiAeHoSUPiBqM5TS-FFTHqVyNpB00',
-              linkedIn: "https://www.linkedin.com/in/deshna-shah-48031a147/",
-
-            },
-          },
-        // More testimonials...
       ],
       [
         {
@@ -78,8 +66,18 @@ const featuredTestimonial = {
               linkedIn: 'https://www.linkedin.com/in/harshal-meher-9a272b1bb/',
 
             },
-          }
-        // More testimonials...
+          },
+          {
+            body: 'I had the pleasure of working with Vinit Sharma at TCS on enterprise-level Java backend services for NSDL. He consistently demonstrated a strong technical foundation, a sharp grasp of complex systems, and a clear understanding of end-to-end backend development. Within a year, Vinit showed impressive growth-progressing from a junior developer to confidently guiding and supporting new team members. He takes ownership of his work, collaborates well with others, and brings both technical maturity and leadership potential to the team.',
+            author: {
+              name: 'Deshna Shah',
+              handle: 'Collegue at Tata Consultancy Services',
+              imageUrl:
+                'https://media.licdn.com/dms/image/v2/D4E03AQHxpn949alorg/profile-displayphoto-shrink_400_400/B4EZOYsp4JHwAk-/0/1733433664638?e=1771459200&v=beta&t=3YXFAhK9FuKv8gCiAeHoSUPiBqM5TS-FFTHqVyNpB00',
+              linkedIn: "https://www.linkedin.com/in/deshna-shah-48031a147/",
+
+            },
+          },
       ],
       [
         {
@@ -111,8 +109,16 @@ const featuredTestimonial = {
                 'https://media.licdn.com/dms/image/v2/D4D03AQGvGZrYFJvC2w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1711947500480?e=1771459200&v=beta&t=ucBXaa6BMiF4hiogdnvdWGg-3JRIN8JFluIpH5wbDSA',
               linkedIn: "https://www.linkedin.com/in/prakruti-yadav/"
               },
+          }, 
+          {
+            "body": `Vinit is a very calm and passionate team member. he understands the client requirements and developed same thing whatever have been asked. Good in coding and communication. helps other team members while learning and developing things.`,
+            author: {
+              name: "Dharmik Dagli",
+              handle: "Client at Tata Consultancy Services",
+              imageUrl: "https://media.licdn.com/dms/image/v2/C5103AQHEhRq6E-XuZg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1554694572599?e=1772064000&v=beta&t=aUs49Tvp0QJXAeAIYGCrqhuKhJWdYmcgO5UB8KyU_n0",
+              linkedIn: "https://www.linkedin.com/in/dharmik-dagli-csm-%C2%AE-102350a2/",
+            } 
           }
-        // More testimonials...
       ],
     ],
   ]
@@ -131,8 +137,8 @@ export function Testimonials() {
               Words from some of the amazing people I've worked with
             </p>
           </div>
-          <div className=" grid grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-1 xl:mx-0 xl:grid-flow-col xl:grid-cols-3 w-full max-w-none">
-            <figure className="rounded-2xl p-4 shadow-lg bg-[#71717a10] dark:bg-[#71717a40] ring-1 ring-gray-200 dark:ring-gray-600 sm:col-span-2 xl:col-start-2 xl:row-end-1">
+          <div className=" grid grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-1 xl:mx-0 xl:grid-cols-3">
+            <figure className="rounded-2xl p-4 shadow-lg bg-[#71717a10] dark:bg-[#71717a40] ring-1 ring-gray-200 dark:ring-gray-600 sm:col-span-3 xl:col-start-1 xl:row-end-1">
               <blockquote className="text-lg font-semibold leading-7 tracking-tight border-emerald-600 dark:border-emerald-400 sm:text-xl sm:leading-8">
                 <p>{`${featuredTestimonial.body}`}</p>
               </blockquote>
@@ -191,4 +197,3 @@ export function Testimonials() {
       </div>
     )
   }
-  

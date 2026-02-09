@@ -1,0 +1,10 @@
+{
+  "/projects/page": "app/projects/page.js",
+  "/soft-skills/page": "app/soft-skills/page.js",
+  "/certifications/page": "app/certifications/page.js",
+  "/testimonials/page": "app/testimonials/page.js",
+  "/page": "app/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/work-experience/page": "app/work-experience/page.js",
+  "/my-philosophy/page": "app/my-philosophy/page.js"
+}
