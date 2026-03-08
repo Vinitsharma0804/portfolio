@@ -2438,6 +2438,10 @@ video {
     border-color: rgb(24 24 27 / 0.1);
   }
 
+  .lg\:bg-white\/100 {
+    background-color: rgb(255 255 255 / 1);
+  }
+
   .lg\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -2683,6 +2687,10 @@ video {
 
 .dark\:bg-zinc-900\/\[var\(--bg-opacity-dark\)\]:where(.dark, .dark *) {
   background-color: rgb(24 24 27 / var(--bg-opacity-dark));
+}
+
+.dark\:bg-zinc-900\/80:where(.dark, .dark *) {
+  background-color: rgb(24 24 27 / 0.8);
 }
 
 .dark\:from-\[\#202D2E\]:where(.dark, .dark *) {
