@@ -41,9 +41,9 @@ export function API() {
               <div key={feature.name}>
                 <dt className="flex items-center justify-start gap-4 text-base font-semibold leading-7">
                   <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-emerald-600 dark:bg-emerald-400">
-                  <Image alt={feature.name} src={feature.icon} aria-hidden="true" className="h-6 w-6" />
+                  <Image alt={feature.name} src={feature.icon} aria-hidden="true" className="h-5 w-5 sm:h-6 sm:w-6 flex-shrink-0" />
                   </div>
-                  <span >
+                  <span className="flex-1 min-w-0">
                   {feature.name}
                   </span>
                 </dt>
