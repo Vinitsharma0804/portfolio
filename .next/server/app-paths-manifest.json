@@ -1,7 +1,4 @@
 {
-  "/page": "app/page.js",
-  "/professional-skills/page": "app/professional-skills/page.js",
-  "/technical-skills/page": "app/technical-skills/page.js",
-  "/soft-skills/page": "app/soft-skills/page.js",
-  "/testimonials/page": "app/testimonials/page.js"
+  "/testimonials/page": "app/testimonials/page.js",
+  "/work-experience/page": "app/work-experience/page.js"
 }

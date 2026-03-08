@@ -5,8 +5,7 @@ const featuredTestimonial = {
     author: {
       name: 'Mandar Rane',
       handle: 'Senior manager at In-Solutions Global',
-      imageUrl:
-        'https://media.licdn.com/dms/image/v2/C5603AQGs268shIe6hA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1646989361790?e=1771459200&v=beta&t=FzfFVy6gl8Q8tYDSvB3j_K9svYVOp7F88IScQgJSehc',
+      imageUrl:'/testimonialImages/MandarRane.jpg',
       linkedIn: "https://www.linkedin.com/in/mandar-rane-74306216/"
     },
   }
@@ -18,8 +17,7 @@ const featuredTestimonial = {
           author: {
             name: 'Narendra Chaudhari',
             handle: 'Technical Lead(ProC) at In-solutions Global',
-            imageUrl:
-              'https://media.licdn.com/dms/image/v2/C4E03AQFvf4UtOcLxsQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1571765335154?e=1771459200&v=beta&t=dgrVOuOM5oTpc3QnMoURzwCuDUQZZjm6KpHT6qdQo5s',
+            imageUrl:'/testimonialImages/NarendraC.jpg',
             linkedIn: "https://www.linkedin.com/in/narendra-chaudhari-5b353611b/"
             },
         },
@@ -28,8 +26,7 @@ const featuredTestimonial = {
             author: {
               name: 'Saurabh Kumar',
               handle: 'Senior at Tata Consultancy Services',
-              imageUrl:
-                'https://media.licdn.com/dms/image/v2/D4D03AQHSWosOzxbpwQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1692303909911?e=1771459200&v=beta&t=5SzqABthDdRRyXsml1H2NbyVdZgNeEWcdyVsM98yUBc',
+              imageUrl:'/testimonialImages/SaurabhK.jpg',
               linkedIn: 'https://www.linkedin.com/in/saurabh-kumar--/'
             },
           },
@@ -39,11 +36,19 @@ const featuredTestimonial = {
             author: {
               name: 'Akshay Shetty',
               handle: 'Technical Lead(Database) at In-Solutions Global',
-              imageUrl:
-                'https://media.licdn.com/dms/image/v2/C4E03AQHaqtx4F3C2ZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1649953264947?e=1771459200&v=beta&t=IMw14lIOWZbHjLtN-Z2o93x6fHmH-Hd_cvwEQSGg2FQ',
+              imageUrl:'/testimonialImages/AkshayShetty.jpg',
               linkedIn: 'https://www.linkedin.com/in/akshay-shetty-01389b237/',
             },
           },
+          {
+          body: 'I worked with Vinit at TCS. He consistently demonstrated strong technical expertise, sound judgment, and a structured approach to his work. He is professional, dependable, and well respected within the team. I would confidently recommend him for any technical position.',
+          author: {
+            name: 'Umme Farwa',
+            handle: 'Collegue at Tata Consultancy Services',
+            imageUrl:'/testimonialImages/UmmeFarwa.jpg',
+            linkedIn: "https://www.linkedin.com/in/umme-farwa-6365a8236/"
+            },
+        }
       ],
       [
         {
@@ -51,18 +56,16 @@ const featuredTestimonial = {
           author: {
             name: 'Cibin Chandrashekar',
             handle: 'Collegue at Tata Consultancy Services',
-            imageUrl:
-              'https://media.licdn.com/dms/image/v2/D4E03AQGLLxVV_8OQ-w/profile-displayphoto-scale_400_400/B4EZoHgBAfIUAk-/0/1761062428259?e=1771459200&v=beta&t=Ta6hT_VXn9bLipuv354JxB7yBr-ZTKsI_j95yYuqTU8',
+            imageUrl:'/testimonialImages/CibinC.jpg',
             linkedIn: "https://www.linkedin.com/in/cibin-chandrasekhar/"
             },
         },
         {
-            body: 'I worked closely with Vinit Sharma at InSolutions Global Ltd for nearly two years and was consistently impressed by his ability to quickly adapt, solve complex problems, and deliver high-quality solutions. He rapidly picked up Spring Boot, designed reliable APIs, supported junior developers, and collaborated effectively across teams. Vinit also went beyond his role by proactively assisting with production and database-related issues, making him a dependable and valued team member. Vinit is a dedicated, technically sound, and collaborative professional, and I would gladly recommend him for roles that require strong development skills, ownership, and teamwork.',
+            body: 'Strong ownership and adaptability are two qualities that define Vinit Sharma as a professional. During our time working together at In-Solutions Global, he consistently demonstrated clarity of thought, structured problem-solving, and the confidence to take initiative without constant supervision. What sets him apart is his learning agility. Even when assigned tasks outside his core tech stack, he takes the initiative to upskill and delivers confidently. He is strong in documentation, which adds long-term value to the team. Vinit started as a Java developer working with Struts and later expanded his expertise to Spring MVC, Spring Boot, and database development, clearly demonstrating his growth mindset and technical versatility. He is also a dependable team player who actively supports his peers and contributes to overall team success. I highly recommend him for any team seeking a skilled and committed professional.',
             author: {
-              name: 'Harshal Meher',
-              handle: 'Collegue at In-Solutions Global',
-              imageUrl:
-                'https://media.licdn.com/dms/image/v2/C4E03AQEtGQKLwfEXPw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1652786053304?e=1771459200&v=beta&t=0Jvzxn5j8kdlKMLYTjYCjiXeuoD6THv36s3GKJlOMSM',
+              name: 'Amar Shetty',
+              handle: 'Technical Lead(Manager) at In-Solutions Global',
+              imageUrl:'/testimonialImages/AmarShetty.jpg',
               linkedIn: 'https://www.linkedin.com/in/harshal-meher-9a272b1bb/',
 
             },
@@ -72,31 +75,28 @@ const featuredTestimonial = {
             author: {
               name: 'Deshna Shah',
               handle: 'Collegue at Tata Consultancy Services',
-              imageUrl:
-                'https://media.licdn.com/dms/image/v2/D4E03AQHxpn949alorg/profile-displayphoto-shrink_400_400/B4EZOYsp4JHwAk-/0/1733433664638?e=1771459200&v=beta&t=3YXFAhK9FuKv8gCiAeHoSUPiBqM5TS-FFTHqVyNpB00',
+              imageUrl:'/testimonialImages/DeshnaShah.jpg',
               linkedIn: "https://www.linkedin.com/in/deshna-shah-48031a147/",
 
             },
-          },
+          }
       ],
       [
         {
-          body: 'I worked with Vinit at TCS. He consistently demonstrated strong technical expertise, sound judgment, and a structured approach to his work. He is professional, dependable, and well respected within the team. I would confidently recommend him for any technical position.',
-          author: {
-            name: 'Umme Farwa',
-            handle: 'Collegue at Tata Consultancy Services',
-            imageUrl:
-              'https://media.licdn.com/dms/image/v2/D4D03AQEWb5gOhqcEXg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1702114164892?e=1771459200&v=beta&t=XI2Y1hCi0XgvzmzxtQiBJSyEqo2yIfwWG6LrtnoSIZc',
-            linkedIn: "https://www.linkedin.com/in/umme-farwa-6365a8236/"
-            },
-        },
+            "body": `Vinit is a very calm and passionate team member. he understands the client requirements and developed same thing whatever have been asked. Good in coding and communication. helps other team members while learning and developing things.`,
+            author: {
+              name: "Dharmik Dagli",
+              handle: "Client at Tata Consultancy Services",
+              imageUrl: '/testimonialImages/DharmikDagli.jpg',
+              linkedIn: "https://www.linkedin.com/in/dharmik-dagli-csm-%C2%AE-102350a2/",
+            } 
+          },
         {
             body: `A Brilliant Mentor and Technical Lead. I had the pleasure of reporting to Vinit Sharma when I first started my career in the tech industry. As a newcomer, I was fortunate to have him as my Reporting Officer. He is an incredibly patient and helpful mentor who took the time to guide me through the learning curve when I had limited technical knowledge.. Beyond his leadership skills, his technical expertise is top-tier. He has a deep understanding of Java, API development, and HTML, along with various other supporting languages. He doesn't just solve problems; he explains the 'why' behind them, which helped me grow significantly as a developer. I highly recommend Vinit Sharma for any leadership or senior engineering role, he is a true asset to any team.`,
             author: {
               name: 'Akash Hatkar',
               handle: 'Collegue at In-Solutions Global',
-              imageUrl:
-                'https://media.licdn.com/dms/image/v2/D5603AQF4n8M2aPoCsQ/profile-displayphoto-shrink_400_400/B56ZUN_9oQHsAg-/0/1739696633740?e=1771459200&v=beta&t=idsg2Ygs-U0KNZKvv3MhP0NXlnzLDgsT4StGyw4PbN8',
+              imageUrl:'/testimonialImages/AkashHatkar.jpg',
               linkedIn: 'https://www.linkedin.com/in/akash-hatkar-334b95125/',
             },
           },
@@ -105,19 +105,19 @@ const featuredTestimonial = {
             author: {
               name: 'Prakruti Yadav',
               handle: 'Collegue at Tata Consultancy Services',
-              imageUrl:
-                'https://media.licdn.com/dms/image/v2/D4D03AQGvGZrYFJvC2w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1711947500480?e=1771459200&v=beta&t=ucBXaa6BMiF4hiogdnvdWGg-3JRIN8JFluIpH5wbDSA',
+              imageUrl:'/testimonialImages/PrakrutiY.jpg',
               linkedIn: "https://www.linkedin.com/in/prakruti-yadav/"
               },
-          }, 
-          {
-            "body": `Vinit is a very calm and passionate team member. he understands the client requirements and developed same thing whatever have been asked. Good in coding and communication. helps other team members while learning and developing things.`,
+          },
+        {
+            body: 'I worked closely with Vinit Sharma at InSolutions Global Ltd for nearly two years and was consistently impressed by his ability to quickly adapt, solve complex problems, and deliver high-quality solutions. He rapidly picked up Spring Boot, designed reliable APIs, supported junior developers, and collaborated effectively across teams. Vinit also went beyond his role by proactively assisting with production and database-related issues, making him a dependable and valued team member. Vinit is a dedicated, technically sound, and collaborative professional, and I would gladly recommend him for roles that require strong development skills, ownership, and teamwork.',
             author: {
-              name: "Dharmik Dagli",
-              handle: "Client at Tata Consultancy Services",
-              imageUrl: "https://media.licdn.com/dms/image/v2/C5103AQHEhRq6E-XuZg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1554694572599?e=1772064000&v=beta&t=aUs49Tvp0QJXAeAIYGCrqhuKhJWdYmcgO5UB8KyU_n0",
-              linkedIn: "https://www.linkedin.com/in/dharmik-dagli-csm-%C2%AE-102350a2/",
-            } 
+              name: 'Harshal Meher',
+              handle: 'Collegue at In-Solutions Global',
+              imageUrl:'/testimonialImages/HarshalM.jpg',
+              linkedIn: 'https://www.linkedin.com/in/harshal-meher-9a272b1bb/',
+
+            },
           }
       ],
     ],

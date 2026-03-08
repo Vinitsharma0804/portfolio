@@ -3,8 +3,8 @@ import { Heading } from '@/components/Heading'
 
 export function LNT() {
   return (
-    <div className="w-full">
-      <div className="text-black dark:text-white text-base leading-7 text-gray-700">
+    <div className="px-6  lg:px-8">
+      <div className="mx-auto text-black dark:text-white text-base leading-7 text-gray-700">
         <Heading id="larsen-and-toubro" level={2} className="text-base font-semibold leading-7 text-emerald-600 dark:text-emerald-400">
         Larsen and Toubro
         </Heading>
