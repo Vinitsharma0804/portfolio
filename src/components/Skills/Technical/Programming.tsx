@@ -9,11 +9,11 @@ import CSS from '@/images/logos/css.svg'
 
 const features = [
   {
-    name: 'Python',
-    icon: logoPython,
-  },{
     name: 'Java',
     icon: JavaPython,
+  },{
+    name: 'Python',
+    icon: logoPython,
   },{
     name: 'Javascript',
     icon: Js,

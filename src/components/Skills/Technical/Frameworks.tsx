@@ -4,6 +4,7 @@ import Springboot from '@/images/logos/springboot.svg'
 import Struts from '@/images/logos/struts.svg'
 import angular from '@/images/logos/angular.svg'
 import react from '@/images/logos/react.svg'
+import JUnit from '@/images/logos/JUnit.png'
 import Image from 'next/image'
 
 const features = [
@@ -19,6 +20,9 @@ const features = [
   },{
     name: 'ReactJs',
     icon: react,
+  },{
+    name: 'JUnit',
+    icon: JUnit,
   }
 ]
 
