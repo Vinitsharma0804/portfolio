@@ -10,7 +10,12 @@ export function Certifications() {
           <ul role="list" className="mt-8 space-y-8">
             <li className="flex items-center gap-x-3 w-full">
               <CheckCircleIcon aria-hidden="true" className="mt-1 h-8 w-8 flex-none text-emerald-600" />
-              <span className="mt-2 text-md font-bold tracking-tight text-black dark:text-white sm:text-xl">Spring Boot 3 Essential Training, 2025</span>
+              <span className="mt-2 text-md font-bold tracking-tight text-black dark:text-white sm:text-xl">AWS Certified Cloud Practitioner
+(CLF-C02) Cert Prep, 2026</span>
+            </li>
+            <li className="flex items-center gap-x-3 w-full">
+              <CheckCircleIcon aria-hidden="true" className="mt-1 h-8 w-8 flex-none text-emerald-600" />
+              <span className="mt-2 text-md font-bold tracking-tight text-black dark:text-white sm:text-xl">Spring Boot 3 Essential Training, 2026</span>
             </li>
             <li className="flex items-center gap-x-3 w-full">
               <CheckCircleIcon aria-hidden="true" className="mt-1 h-8 w-8 flex-none text-emerald-600" />

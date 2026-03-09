@@ -6,7 +6,7 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["app/my-philosophy/page"],{
+(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["app/certifications/page"],{
 
 /***/ "(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22A%3A%5C%5Cvinit-portfolio%5C%5Cnode_modules%5C%5Cnext%5C%5Cdist%5C%5Cclient%5C%5Clink.js%22%2C%22ids%22%3A%5B%22*%22%5D%7D&modules=%7B%22request%22%3A%22A%3A%5C%5Cvinit-portfolio%5C%5Csrc%5C%5Ccomponents%5C%5CCode.tsx%22%2C%22ids%22%3A%5B%22CodeGroup%22%2C%22Code%22%2C%22Pre%22%5D%7D&modules=%7B%22request%22%3A%22A%3A%5C%5Cvinit-portfolio%5C%5Csrc%5C%5Ccomponents%5C%5CHeading.tsx%22%2C%22ids%22%3A%5B%22Heading%22%5D%7D&server=false!":
 /*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
